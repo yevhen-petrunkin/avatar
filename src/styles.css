@@ -1,1 +1,149 @@
 @import '../node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  background-image: url(https://avatar-app.herokuapp.com/images/background.jpg);
+  background-color: rgb(136, 61, 0);
+  background-position: center top;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  background-color: rgb(144, 119, 98);
+  box-shadow: 2px 3px 3px rgb(26, 5, 5);
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.title {
+  padding-bottom: 15px;
+  font-size: 36px;
+  text-shadow: 2px 3px 3px rgb(26, 5, 5);
+}
+
+.form__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: inherit;
+  letter-spacing: inherit;
+  border: none;
+  background-color: brown;
+  box-shadow: 2px 3px 3px rgb(26, 5, 5);
+  transition: background-color 200ms linear, box-shadow 200ms linear;
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(169, 0, 0);
+  box-shadow: 1px 2px 2px rgb(26, 5, 5);
+}
+
+button:focus {
+  outline: 1px solid rgb(26, 5, 5);
+}
+
+.screen {
+  margin: 0 auto;
+  padding: 15px;
+  width: inherit;
+  min-height: 10px;
+  text-shadow: 1px 2px 2px rgb(26, 5, 5);
+  background-color: rgb(144, 119, 98);
+  border: 2px solid white;
+  border-radius: 4px;
+  box-shadow: 2px 3px 3px rgb(26, 5, 5);
+  overflow: hidden;
+}
+
+@media screen and (min-width: 480px) {
+  .screen {
+    max-width: 450px;
+  }
+}
+
+.screen__image {
+  width: 100%;
+  border-radius: 4px;
+  transition: transform 400ms linear;
+}
+
+.screen__image:hover,
+.screen__image:focus {
+  transform: scale(1.1);
+}
+
+.screen__list {
+  padding: 15px;
+  background-color: rgb(136, 61, 0);
+  border: 2px solid rgb(26, 5, 5);
+  border-radius: 4px;
+}
+
+.screen__item {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.screen__info {
+  font-size: 26px;
+}

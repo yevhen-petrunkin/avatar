@@ -4,33 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Attack-on-Titan-Query</title>
+    <title>Avatar</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1 class="title">ATTACK ON TITAN</h1>
-    <form action="" class="form">
-      <label for="" class="form-input___name">
-        <input
-          type="text"
-          class="form__input"
-          id="character"
-          placeholder="Enter character id"
-        />
-      </label>
-      <label for="" class="form-input___name">
-        <input
-          type="text"
-          class="form__input"
-          id="titan"
-          placeholder="Enter titan id"
-        />
-      </label>
-      <button class="form___btn" type="submit">Search</button>
-    </form>
-    <div class="screen">
-      <div class="screen__character"></div>
-      <div class="screen__titan"></div>
+    <div class="container">
+      <h1 class="title">THE LAST AIRBENDER</h1>
+      <form class="form">
+        <div class="form__line">
+          <input
+            type="text"
+            class="form__input"
+            id="characterId"
+            name="query"
+            placeholder="Enter character number"
+          />
+          <button class="form___btn" type="submit">Search</button>
+        </div>
+      </form>
+      <div class="form__line">
+        <button class="form___btn" id="previous">Previous</button>
+        <button class="form___btn" id="next">Next</button>
+      </div>
+      <div class="screen">
+        <!-- <img class="screen__image" src="./aang.png" alt="Aang" />
+        <ul class="screen__list list">
+          <li class="screen__item">
+            <p>Name: <span class="screen__info">Aang</span></p>
+          </li>
+          <li class="screen__item">
+            <p>Id: <span class="screen__info">1</span></p>
+          </li>
+          <li class="screen__item">
+            <p>Age: <span class="screen__info">12</span></p>
+          </li>
+          <li class="screen__item">
+            <p>Born: <span class="screen__info">82 AG</span></p>
+          </li>
+          <li class="screen__item">
+            <p>Gender: <span class="screen__info">Male</span></p>
+          </li>
+          <li class="screen__item">
+            <p>Enthnicity: <span class="screen__info">Air Nomads</span></p>
+          </li>
+          <li class="screen__item">
+            <p>Nationality: <span class="screen__info">Temple</span></p>
+          </li>
+          <li class="screen__item">
+            <p>
+              Bending:
+              <span class="screen__info">Airbending, Waterbending</span>
+            </p>
+          </li>
+        </ul> -->
+      </div>
     </div>
 
     <script src="./index.js" type="module"></script>
