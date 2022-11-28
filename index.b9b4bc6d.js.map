@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,MAAM,0DACHC,MAAKC,GAAKC,QAAQC,IAAIF,EAAEG,UACxBJ,KAAKE,QAAQC","sources":["src/index.js"],"sourcesContent":["fetch('https://attackontitanclient.netlify.app/#/characters/1')\n  .then(r => console.log(r.json()))\n  .then(console.log);\n"],"names":["fetch","then","r","console","log","json"],"version":3,"file":"index.b9b4bc6d.js.map"}
